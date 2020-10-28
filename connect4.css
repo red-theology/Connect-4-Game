@@ -1,0 +1,75 @@
+/* game board table */
+
+body {
+	font-family: "Merriweather Sans", sans-serif;
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstore-images.s-microsoft.com%2Fimage%2Fapps.41929.13682804428841430.68f0af32-8ea6-49bc-b838-d812036d39e9.80b85532-1417-4579-9726-abd1699a6297%3Fmode%3Dscale%26q%3D90%26h%3D1080%26w%3D1920&f=1&nofb=1);
+	background-size: cover;
+}
+
+#behind-game {
+	background-color: burlywood;
+	border: solid 5px blue;
+}
+
+h1,
+h2 {
+	color: red;
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	color: white;
+	font-size: large;
+	border: dotted 5px red;
+	text-align: center;
+}
+
+#game {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin-top: 25vh;
+}
+
+#board td {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border: solid 1px #666;
+	background-color: white;
+}
+
+/* column-top is table row of clickable areas for each column */
+
+#column-top td {
+	border: dashed 1px lightgray;
+}
+
+th {
+	cursor: pointer;
+}
+
+th:hover {
+	background-color: gold;
+}
+
+.row {
+	background-color: white;
+}
+
+table {
+	background-color: blue;
+}
+
+th {
+	border: dashed 1px grey;
+	background-color: lightgrey;
+	padding: 5px 5px;
+}
+
+td {
+	border: solid 4px black;
+	background-color: white;
+	border-radius: 50%;
+}
