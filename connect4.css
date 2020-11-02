@@ -18,11 +18,14 @@ h2 {
 	margin: 0;
 }
 
-p {
-	color: white;
+div p {
+	color: rgb(0, 0, 0);
 	font-size: large;
 	border: dotted 5px red;
+	padding: 10px;
 	text-align: center;
+	color: white;
+	background-color: black;
 }
 
 #game {
@@ -72,4 +75,13 @@ td {
 	border: solid 4px black;
 	background-color: white;
 	border-radius: 50%;
+}
+
+button {
+	background-color: yellow;
+	color: black;
+	border-radius: 100%;
+	font-size: medium;
+	padding: 10px;
+	font-weight: bold;
 }
